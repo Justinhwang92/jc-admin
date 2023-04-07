@@ -1,8 +1,8 @@
-import { Typography, colors } from '@mui/material';
+import { Typography } from '@mui/material';
 import { CategoryType } from '../../types';
 import { NavbarItem } from '../NavbarItem';
 
-export const Data = ({ selected, setSelected }: CategoryType) => {
+export const Data = ({ colors, selected, setSelected }: CategoryType) => {
   return (
     <>
       <Typography

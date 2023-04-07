@@ -54,9 +54,21 @@ export const Navbar = () => {
               selected={selected}
               setSelected={setSelected}
             />
-            <Data selected={selected} setSelected={setSelected} />
-            <Pages selected={selected} setSelected={setSelected} />
-            <Charts selected={selected} setSelected={setSelected} />
+            <Data
+              colors={colors}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Pages
+              colors={colors}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Charts
+              colors={colors}
+              selected={selected}
+              setSelected={setSelected}
+            />
           </Box>
         </Menu>
       </ProSidebar>

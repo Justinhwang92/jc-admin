@@ -17,6 +17,7 @@ export type UserProfileProps = {
 };
 
 export type CategoryType = {
+  colors: any;
   selected: string;
   setSelected: any;
 };
