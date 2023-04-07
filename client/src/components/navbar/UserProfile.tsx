@@ -20,7 +20,7 @@ export const UserProfile = ({ colors }: UserProfileProps) => {
           fontWeight="bold"
           sx={{ m: '10px 0 0 0' }}
         >
-          Justin
+          Justin Hwang
         </Typography>
         <Typography variant="h5" color={colors.greenAccent[500]}>
           CEO
