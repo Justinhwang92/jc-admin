@@ -14,6 +14,7 @@ export const Navbar = () => {
 
   return (
     <Box
+      pr="16px"
       sx={{
         '& .pro-sidebar-inner': {
           background: `${colors.primary[400]} !important`,

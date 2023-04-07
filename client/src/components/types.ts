@@ -20,3 +20,8 @@ export type CategoryType = {
   selected: string;
   setSelected: any;
 };
+
+export type HeaderType = {
+  title: string;
+  subTitle: string;
+};
