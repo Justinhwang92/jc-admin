@@ -1,3 +1,5 @@
+import { EventApi } from '@fullcalendar/core';
+
 export type NavbarItemProps = {
   colors: any;
   title: string;
@@ -25,4 +27,13 @@ export type CategoryType = {
 export type HeaderType = {
   title: string;
   subTitle: string;
+};
+
+export type CalendarSidebarType = {
+  colors: any;
+  currentEvents: EventApi[];
+};
+
+export type CalendarMainType = {
+  setCurrentEvents: React.Dispatch<React.SetStateAction<EventApi[]>>;
 };
